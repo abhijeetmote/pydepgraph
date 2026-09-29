@@ -1,0 +1,164 @@
+[
+  {
+    "repositories": 10,
+    "seed": 17,
+    "repeat": 0,
+    "seconds": 0.002164051000136169
+  },
+  {
+    "repositories": 10,
+    "seed": 17,
+    "repeat": 1,
+    "seconds": 0.0021223389999249775
+  },
+  {
+    "repositories": 10,
+    "seed": 17,
+    "repeat": 2,
+    "seconds": 0.0020654429999922286
+  },
+  {
+    "repositories": 10,
+    "seed": 29,
+    "repeat": 0,
+    "seconds": 0.0042855389999658655
+  },
+  {
+    "repositories": 10,
+    "seed": 29,
+    "repeat": 1,
+    "seconds": 0.0036267319999296888
+  },
+  {
+    "repositories": 10,
+    "seed": 29,
+    "repeat": 2,
+    "seconds": 0.002292847000035181
+  },
+  {
+    "repositories": 10,
+    "seed": 43,
+    "repeat": 0,
+    "seconds": 0.0021456239999224636
+  },
+  {
+    "repositories": 10,
+    "seed": 43,
+    "repeat": 1,
+    "seconds": 0.0022529450000092766
+  },
+  {
+    "repositories": 10,
+    "seed": 43,
+    "repeat": 2,
+    "seconds": 0.0024935300000379357
+  },
+  {
+    "repositories": 100,
+    "seed": 17,
+    "repeat": 0,
+    "seconds": 0.02274146800004928
+  },
+  {
+    "repositories": 100,
+    "seed": 17,
+    "repeat": 1,
+    "seconds": 0.021388021999882767
+  },
+  {
+    "repositories": 100,
+    "seed": 17,
+    "repeat": 2,
+    "seconds": 0.020951462000084575
+  },
+  {
+    "repositories": 100,
+    "seed": 29,
+    "repeat": 0,
+    "seconds": 0.022957764000011593
+  },
+  {
+    "repositories": 100,
+    "seed": 29,
+    "repeat": 1,
+    "seconds": 0.021254450000014913
+  },
+  {
+    "repositories": 100,
+    "seed": 29,
+    "repeat": 2,
+    "seconds": 0.021859964999976
+  },
+  {
+    "repositories": 100,
+    "seed": 43,
+    "repeat": 0,
+    "seconds": 0.022464839999884134
+  },
+  {
+    "repositories": 100,
+    "seed": 43,
+    "repeat": 1,
+    "seconds": 0.020999444999915795
+  },
+  {
+    "repositories": 100,
+    "seed": 43,
+    "repeat": 2,
+    "seconds": 0.021187859000065146
+  },
+  {
+    "repositories": 1000,
+    "seed": 17,
+    "repeat": 0,
+    "seconds": 0.21629737300008856
+  },
+  {
+    "repositories": 1000,
+    "seed": 17,
+    "repeat": 1,
+    "seconds": 0.23328143799994905
+  },
+  {
+    "repositories": 1000,
+    "seed": 17,
+    "repeat": 2,
+    "seconds": 0.21294479499988483
+  },
+  {
+    "repositories": 1000,
+    "seed": 29,
+    "repeat": 0,
+    "seconds": 0.2398705980001523
+  },
+  {
+    "repositories": 1000,
+    "seed": 29,
+    "repeat": 1,
+    "seconds": 0.21665444400014167
+  },
+  {
+    "repositories": 1000,
+    "seed": 29,
+    "repeat": 2,
+    "seconds": 0.20918121599993356
+  },
+  {
+    "repositories": 1000,
+    "seed": 43,
+    "repeat": 0,
+    "seconds": 0.21620046700013518
+  },
+  {
+    "repositories": 1000,
+    "seed": 43,
+    "repeat": 1,
+    "seconds": 0.21432199800005947
+  },
+  {
+    "repositories": 1000,
+    "seed": 43,
+    "repeat": 2,
+    "seconds": 0.21780203799994524
+  }
+]

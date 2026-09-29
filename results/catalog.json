@@ -1,0 +1,4970 @@
+{
+  "schema_version": "0.1",
+  "rows": [
+    {
+      "repository": "service-0000",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0"
+    },
+    {
+      "repository": "service-0001",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "282fa5e4a70bb4aaf425d60adcbdf1fa638d770af627659c34929d5181c7aab5"
+    },
+    {
+      "repository": "service-0002",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d"
+    },
+    {
+      "repository": "service-0003",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494"
+    },
+    {
+      "repository": "service-0004",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "0db55bba0968dd1a621ad4f37ca66fb8314164e3c448130e984970da9b11aef3"
+    },
+    {
+      "repository": "service-0005",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c"
+    },
+    {
+      "repository": "service-0006",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9"
+    },
+    {
+      "repository": "service-0007",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0008",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "a05e289cbd5eaadaab79140e461b75a05751fb7acb17ab133f4cec0826c12d3a"
+    },
+    {
+      "repository": "service-0009",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "282fa5e4a70bb4aaf425d60adcbdf1fa638d770af627659c34929d5181c7aab5"
+    },
+    {
+      "repository": "service-0010",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d"
+    },
+    {
+      "repository": "service-0011",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494"
+    },
+    {
+      "repository": "service-0012",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2"
+    },
+    {
+      "repository": "service-0013",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c"
+    },
+    {
+      "repository": "service-0014",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9"
+    },
+    {
+      "repository": "service-0015",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0016",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "a05e289cbd5eaadaab79140e461b75a05751fb7acb17ab133f4cec0826c12d3a"
+    },
+    {
+      "repository": "service-0017",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421"
+    },
+    {
+      "repository": "service-0018",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14"
+    },
+    {
+      "repository": "service-0019",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a"
+    },
+    {
+      "repository": "service-0020",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2"
+    },
+    {
+      "repository": "service-0021",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "928f2161c61d1b8d1a2ca2e5814bee93d1c09bf5b2f7b9e17a7bb38af085f1dd"
+    },
+    {
+      "repository": "service-0022",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9"
+    },
+    {
+      "repository": "service-0023",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0024",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0"
+    },
+    {
+      "repository": "service-0025",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421"
+    },
+    {
+      "repository": "service-0026",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d"
+    },
+    {
+      "repository": "service-0027",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a"
+    },
+    {
+      "repository": "service-0028",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2"
+    },
+    {
+      "repository": "service-0029",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c"
+    },
+    {
+      "repository": "service-0030",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9"
+    },
+    {
+      "repository": "service-0031",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0032",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0"
+    },
+    {
+      "repository": "service-0033",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421"
+    },
+    {
+      "repository": "service-0034",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d"
+    },
+    {
+      "repository": "service-0035",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a"
+    },
+    {
+      "repository": "service-0036",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2"
+    },
+    {
+      "repository": "service-0037",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c"
+    },
+    {
+      "repository": "service-0038",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9"
+    },
+    {
+      "repository": "service-0039",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0040",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "a05e289cbd5eaadaab79140e461b75a05751fb7acb17ab133f4cec0826c12d3a"
+    },
+    {
+      "repository": "service-0041",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421"
+    },
+    {
+      "repository": "service-0042",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14"
+    },
+    {
+      "repository": "service-0043",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a"
+    },
+    {
+      "repository": "service-0044",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2"
+    },
+    {
+      "repository": "service-0045",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "928f2161c61d1b8d1a2ca2e5814bee93d1c09bf5b2f7b9e17a7bb38af085f1dd"
+    },
+    {
+      "repository": "service-0046",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618"
+    },
+    {
+      "repository": "service-0047",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0048",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0"
+    },
+    {
+      "repository": "service-0049",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421"
+    },
+    {
+      "repository": "service-0050",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14"
+    },
+    {
+      "repository": "service-0051",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494"
+    },
+    {
+      "repository": "service-0052",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2"
+    },
+    {
+      "repository": "service-0053",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c"
+    },
+    {
+      "repository": "service-0054",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618"
+    },
+    {
+      "repository": "service-0055",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0056",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0"
+    },
+    {
+      "repository": "service-0057",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421"
+    },
+    {
+      "repository": "service-0058",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d"
+    },
+    {
+      "repository": "service-0059",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494"
+    },
+    {
+      "repository": "service-0060",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "0db55bba0968dd1a621ad4f37ca66fb8314164e3c448130e984970da9b11aef3"
+    },
+    {
+      "repository": "service-0061",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "928f2161c61d1b8d1a2ca2e5814bee93d1c09bf5b2f7b9e17a7bb38af085f1dd"
+    },
+    {
+      "repository": "service-0062",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618"
+    },
+    {
+      "repository": "service-0063",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0064",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0"
+    },
+    {
+      "repository": "service-0065",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "282fa5e4a70bb4aaf425d60adcbdf1fa638d770af627659c34929d5181c7aab5"
+    },
+    {
+      "repository": "service-0066",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d"
+    },
+    {
+      "repository": "service-0067",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a"
+    },
+    {
+      "repository": "service-0068",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "0db55bba0968dd1a621ad4f37ca66fb8314164e3c448130e984970da9b11aef3"
+    },
+    {
+      "repository": "service-0069",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c"
+    },
+    {
+      "repository": "service-0070",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618"
+    },
+    {
+      "repository": "service-0071",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    },
+    {
+      "repository": "service-0072",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0"
+    },
+    {
+      "repository": "service-0073",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421"
+    },
+    {
+      "repository": "service-0074",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14"
+    },
+    {
+      "repository": "service-0075",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494"
+    },
+    {
+      "repository": "service-0076",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2"
+    },
+    {
+      "repository": "service-0077",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c"
+    },
+    {
+      "repository": "service-0078",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9"
+    },
+    {
+      "repository": "service-0079",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810"
+    }
+  ],
+  "findings": [
+    {
+      "repository": "service-0000",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0001",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "282fa5e4a70bb4aaf425d60adcbdf1fa638d770af627659c34929d5181c7aab5",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0002",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0003",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0004",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "0db55bba0968dd1a621ad4f37ca66fb8314164e3c448130e984970da9b11aef3",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0005",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0006",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0007",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0008",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "a05e289cbd5eaadaab79140e461b75a05751fb7acb17ab133f4cec0826c12d3a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0009",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "282fa5e4a70bb4aaf425d60adcbdf1fa638d770af627659c34929d5181c7aab5",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0010",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0011",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0012",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0013",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0014",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0015",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0016",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "a05e289cbd5eaadaab79140e461b75a05751fb7acb17ab133f4cec0826c12d3a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0017",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0018",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0019",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0020",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0021",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "928f2161c61d1b8d1a2ca2e5814bee93d1c09bf5b2f7b9e17a7bb38af085f1dd",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0022",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0023",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0024",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0025",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0026",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0027",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0028",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0029",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0030",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0031",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0032",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0033",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0034",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0035",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0036",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0037",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0038",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0039",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0040",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "a05e289cbd5eaadaab79140e461b75a05751fb7acb17ab133f4cec0826c12d3a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0041",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0042",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0043",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0044",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0045",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "928f2161c61d1b8d1a2ca2e5814bee93d1c09bf5b2f7b9e17a7bb38af085f1dd",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0046",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0047",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0048",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0049",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0050",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0051",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0052",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0053",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0054",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0055",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0056",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0057",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0058",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0059",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0060",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "0db55bba0968dd1a621ad4f37ca66fb8314164e3c448130e984970da9b11aef3",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0061",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "928f2161c61d1b8d1a2ca2e5814bee93d1c09bf5b2f7b9e17a7bb38af085f1dd",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0062",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0063",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0064",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0065",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "282fa5e4a70bb4aaf425d60adcbdf1fa638d770af627659c34929d5181c7aab5",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0066",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "2.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "a41eeefc80a5e91db947d73c7df3b7da99f37478f0b20b423c8274536c741b7d",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0067",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "861a84447d9c0715cae31f47b726dcb7afed3bee9b68d7bf14df6eb3c464b46a",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0068",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "0db55bba0968dd1a621ad4f37ca66fb8314164e3c448130e984970da9b11aef3",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0069",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0070",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "f2a5b0f602455206fb212e74ba90cb8496488e5b1cd1753604f790812fd4b618",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0071",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    },
+    {
+      "repository": "service-0072",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "ee243975ecfbc8753842a5593f2f576ed033de17776c2de37284d19c07edf1c0",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0073",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "pyproject.toml",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "601bacf8d873adbaf5f984df8321199cc824666cc24571e04e34822fd42d6421",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0074",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "",
+      "version": "1.0",
+      "scope": "lock",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "poetry.lock",
+      "raw": "demo-lib",
+      "source_sha256": "fc1921480ec1c4a064df280f444ca30c40bcfbe53562ccefd1a729639d277f14",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0075",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "locked",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile.lock",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "c3cbbbedb101c0d63b22291aa2260240db5938879d409ffac047effa65b5e494",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0076",
+      "team": "Data",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "Pipfile",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e9f38a5a14ca7670dd03f4064ef53e7d9468c323380234bbef94d696424010c2",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0077",
+      "team": "Platform",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==2.0",
+      "version": "2.0",
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "setup.cfg",
+      "raw": "demo-lib==2.0",
+      "source_sha256": "e28da0805e81eef40949cd4d75cbb3227a9285c189aa7cad5a992293fe8dd83c",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "not_affected"
+    },
+    {
+      "repository": "service-0078",
+      "team": "Applications",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": "==1.0",
+      "version": "1.0",
+      "scope": "testenv",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "tox.ini",
+      "raw": "demo-lib==1.0",
+      "source_sha256": "d446cc9a13c1b44ae8f9f53cbe01efc752e541beeb875896a4aac01fcbc059b9",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "affected"
+    },
+    {
+      "repository": "service-0079",
+      "team": "UNKNOWN",
+      "environment": {
+        "sys_platform": "linux",
+        "python_version": "3.11"
+      },
+      "package": "demo-lib",
+      "constraint": ">=1",
+      "version": null,
+      "scope": "runtime",
+      "evidence": "declared",
+      "marker": null,
+      "active": true,
+      "source": "requirements.txt",
+      "raw": "demo-lib>=1",
+      "source_sha256": "2f7b25b4b21e7c4e3dbd122c682b3b9847bac77fdafeda8d2bd4690488781810",
+      "advisory": "SYNTH-001",
+      "synthetic_advisory": true,
+      "status": "indeterminate"
+    }
+  ],
+  "diagnostics": [
+    {
+      "repository": "service-0002",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0010",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0018",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0026",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0034",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0042",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0050",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0058",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0066",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    },
+    {
+      "repository": "service-0074",
+      "source": "poetry.lock",
+      "message": "Poetry lock inventory only: extras, groups, per-edge applicability and transitive paths not resolved"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "repo:service-0000",
+        "type": "repository",
+        "label": "service-0000"
+      },
+      {
+        "id": "team:Data",
+        "type": "team",
+        "label": "Data"
+      },
+      {
+        "id": "evidence:0",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "package:demo-lib",
+        "type": "package",
+        "label": "demo-lib"
+      },
+      {
+        "id": "repo:service-0001",
+        "type": "repository",
+        "label": "service-0001"
+      },
+      {
+        "id": "team:Platform",
+        "type": "team",
+        "label": "Platform"
+      },
+      {
+        "id": "evidence:1",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0002",
+        "type": "repository",
+        "label": "service-0002"
+      },
+      {
+        "id": "team:Applications",
+        "type": "team",
+        "label": "Applications"
+      },
+      {
+        "id": "evidence:2",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0003",
+        "type": "repository",
+        "label": "service-0003"
+      },
+      {
+        "id": "team:UNKNOWN",
+        "type": "team",
+        "label": "UNKNOWN"
+      },
+      {
+        "id": "evidence:3",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0004",
+        "type": "repository",
+        "label": "service-0004"
+      },
+      {
+        "id": "evidence:4",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0005",
+        "type": "repository",
+        "label": "service-0005"
+      },
+      {
+        "id": "evidence:5",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0006",
+        "type": "repository",
+        "label": "service-0006"
+      },
+      {
+        "id": "evidence:6",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0007",
+        "type": "repository",
+        "label": "service-0007"
+      },
+      {
+        "id": "evidence:7",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0008",
+        "type": "repository",
+        "label": "service-0008"
+      },
+      {
+        "id": "evidence:8",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0009",
+        "type": "repository",
+        "label": "service-0009"
+      },
+      {
+        "id": "evidence:9",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0010",
+        "type": "repository",
+        "label": "service-0010"
+      },
+      {
+        "id": "evidence:10",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0011",
+        "type": "repository",
+        "label": "service-0011"
+      },
+      {
+        "id": "evidence:11",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0012",
+        "type": "repository",
+        "label": "service-0012"
+      },
+      {
+        "id": "evidence:12",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0013",
+        "type": "repository",
+        "label": "service-0013"
+      },
+      {
+        "id": "evidence:13",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0014",
+        "type": "repository",
+        "label": "service-0014"
+      },
+      {
+        "id": "evidence:14",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0015",
+        "type": "repository",
+        "label": "service-0015"
+      },
+      {
+        "id": "evidence:15",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0016",
+        "type": "repository",
+        "label": "service-0016"
+      },
+      {
+        "id": "evidence:16",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0017",
+        "type": "repository",
+        "label": "service-0017"
+      },
+      {
+        "id": "evidence:17",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0018",
+        "type": "repository",
+        "label": "service-0018"
+      },
+      {
+        "id": "evidence:18",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0019",
+        "type": "repository",
+        "label": "service-0019"
+      },
+      {
+        "id": "evidence:19",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0020",
+        "type": "repository",
+        "label": "service-0020"
+      },
+      {
+        "id": "evidence:20",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0021",
+        "type": "repository",
+        "label": "service-0021"
+      },
+      {
+        "id": "evidence:21",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0022",
+        "type": "repository",
+        "label": "service-0022"
+      },
+      {
+        "id": "evidence:22",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0023",
+        "type": "repository",
+        "label": "service-0023"
+      },
+      {
+        "id": "evidence:23",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0024",
+        "type": "repository",
+        "label": "service-0024"
+      },
+      {
+        "id": "evidence:24",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0025",
+        "type": "repository",
+        "label": "service-0025"
+      },
+      {
+        "id": "evidence:25",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0026",
+        "type": "repository",
+        "label": "service-0026"
+      },
+      {
+        "id": "evidence:26",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0027",
+        "type": "repository",
+        "label": "service-0027"
+      },
+      {
+        "id": "evidence:27",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0028",
+        "type": "repository",
+        "label": "service-0028"
+      },
+      {
+        "id": "evidence:28",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0029",
+        "type": "repository",
+        "label": "service-0029"
+      },
+      {
+        "id": "evidence:29",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0030",
+        "type": "repository",
+        "label": "service-0030"
+      },
+      {
+        "id": "evidence:30",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0031",
+        "type": "repository",
+        "label": "service-0031"
+      },
+      {
+        "id": "evidence:31",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0032",
+        "type": "repository",
+        "label": "service-0032"
+      },
+      {
+        "id": "evidence:32",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0033",
+        "type": "repository",
+        "label": "service-0033"
+      },
+      {
+        "id": "evidence:33",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0034",
+        "type": "repository",
+        "label": "service-0034"
+      },
+      {
+        "id": "evidence:34",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0035",
+        "type": "repository",
+        "label": "service-0035"
+      },
+      {
+        "id": "evidence:35",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0036",
+        "type": "repository",
+        "label": "service-0036"
+      },
+      {
+        "id": "evidence:36",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0037",
+        "type": "repository",
+        "label": "service-0037"
+      },
+      {
+        "id": "evidence:37",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0038",
+        "type": "repository",
+        "label": "service-0038"
+      },
+      {
+        "id": "evidence:38",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0039",
+        "type": "repository",
+        "label": "service-0039"
+      },
+      {
+        "id": "evidence:39",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0040",
+        "type": "repository",
+        "label": "service-0040"
+      },
+      {
+        "id": "evidence:40",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0041",
+        "type": "repository",
+        "label": "service-0041"
+      },
+      {
+        "id": "evidence:41",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0042",
+        "type": "repository",
+        "label": "service-0042"
+      },
+      {
+        "id": "evidence:42",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0043",
+        "type": "repository",
+        "label": "service-0043"
+      },
+      {
+        "id": "evidence:43",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0044",
+        "type": "repository",
+        "label": "service-0044"
+      },
+      {
+        "id": "evidence:44",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0045",
+        "type": "repository",
+        "label": "service-0045"
+      },
+      {
+        "id": "evidence:45",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0046",
+        "type": "repository",
+        "label": "service-0046"
+      },
+      {
+        "id": "evidence:46",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0047",
+        "type": "repository",
+        "label": "service-0047"
+      },
+      {
+        "id": "evidence:47",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0048",
+        "type": "repository",
+        "label": "service-0048"
+      },
+      {
+        "id": "evidence:48",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0049",
+        "type": "repository",
+        "label": "service-0049"
+      },
+      {
+        "id": "evidence:49",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0050",
+        "type": "repository",
+        "label": "service-0050"
+      },
+      {
+        "id": "evidence:50",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0051",
+        "type": "repository",
+        "label": "service-0051"
+      },
+      {
+        "id": "evidence:51",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0052",
+        "type": "repository",
+        "label": "service-0052"
+      },
+      {
+        "id": "evidence:52",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0053",
+        "type": "repository",
+        "label": "service-0053"
+      },
+      {
+        "id": "evidence:53",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0054",
+        "type": "repository",
+        "label": "service-0054"
+      },
+      {
+        "id": "evidence:54",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0055",
+        "type": "repository",
+        "label": "service-0055"
+      },
+      {
+        "id": "evidence:55",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0056",
+        "type": "repository",
+        "label": "service-0056"
+      },
+      {
+        "id": "evidence:56",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0057",
+        "type": "repository",
+        "label": "service-0057"
+      },
+      {
+        "id": "evidence:57",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0058",
+        "type": "repository",
+        "label": "service-0058"
+      },
+      {
+        "id": "evidence:58",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0059",
+        "type": "repository",
+        "label": "service-0059"
+      },
+      {
+        "id": "evidence:59",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0060",
+        "type": "repository",
+        "label": "service-0060"
+      },
+      {
+        "id": "evidence:60",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0061",
+        "type": "repository",
+        "label": "service-0061"
+      },
+      {
+        "id": "evidence:61",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0062",
+        "type": "repository",
+        "label": "service-0062"
+      },
+      {
+        "id": "evidence:62",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0063",
+        "type": "repository",
+        "label": "service-0063"
+      },
+      {
+        "id": "evidence:63",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0064",
+        "type": "repository",
+        "label": "service-0064"
+      },
+      {
+        "id": "evidence:64",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0065",
+        "type": "repository",
+        "label": "service-0065"
+      },
+      {
+        "id": "evidence:65",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0066",
+        "type": "repository",
+        "label": "service-0066"
+      },
+      {
+        "id": "evidence:66",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0067",
+        "type": "repository",
+        "label": "service-0067"
+      },
+      {
+        "id": "evidence:67",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0068",
+        "type": "repository",
+        "label": "service-0068"
+      },
+      {
+        "id": "evidence:68",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0069",
+        "type": "repository",
+        "label": "service-0069"
+      },
+      {
+        "id": "evidence:69",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0070",
+        "type": "repository",
+        "label": "service-0070"
+      },
+      {
+        "id": "evidence:70",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0071",
+        "type": "repository",
+        "label": "service-0071"
+      },
+      {
+        "id": "evidence:71",
+        "type": "evidence",
+        "label": ">=1"
+      },
+      {
+        "id": "repo:service-0072",
+        "type": "repository",
+        "label": "service-0072"
+      },
+      {
+        "id": "evidence:72",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0073",
+        "type": "repository",
+        "label": "service-0073"
+      },
+      {
+        "id": "evidence:73",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0074",
+        "type": "repository",
+        "label": "service-0074"
+      },
+      {
+        "id": "evidence:74",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0075",
+        "type": "repository",
+        "label": "service-0075"
+      },
+      {
+        "id": "evidence:75",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0076",
+        "type": "repository",
+        "label": "service-0076"
+      },
+      {
+        "id": "evidence:76",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0077",
+        "type": "repository",
+        "label": "service-0077"
+      },
+      {
+        "id": "evidence:77",
+        "type": "evidence",
+        "label": "2.0"
+      },
+      {
+        "id": "repo:service-0078",
+        "type": "repository",
+        "label": "service-0078"
+      },
+      {
+        "id": "evidence:78",
+        "type": "evidence",
+        "label": "1.0"
+      },
+      {
+        "id": "repo:service-0079",
+        "type": "repository",
+        "label": "service-0079"
+      },
+      {
+        "id": "evidence:79",
+        "type": "evidence",
+        "label": ">=1"
+      }
+    ],
+    "edges": [
+      {
+        "source": "team:Data",
+        "target": "repo:service-0000"
+      },
+      {
+        "source": "repo:service-0000",
+        "target": "evidence:0"
+      },
+      {
+        "source": "evidence:0",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0001"
+      },
+      {
+        "source": "repo:service-0001",
+        "target": "evidence:1"
+      },
+      {
+        "source": "evidence:1",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0002"
+      },
+      {
+        "source": "repo:service-0002",
+        "target": "evidence:2"
+      },
+      {
+        "source": "evidence:2",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0003"
+      },
+      {
+        "source": "repo:service-0003",
+        "target": "evidence:3"
+      },
+      {
+        "source": "evidence:3",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0004"
+      },
+      {
+        "source": "repo:service-0004",
+        "target": "evidence:4"
+      },
+      {
+        "source": "evidence:4",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0005"
+      },
+      {
+        "source": "repo:service-0005",
+        "target": "evidence:5"
+      },
+      {
+        "source": "evidence:5",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0006"
+      },
+      {
+        "source": "repo:service-0006",
+        "target": "evidence:6"
+      },
+      {
+        "source": "evidence:6",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0007"
+      },
+      {
+        "source": "repo:service-0007",
+        "target": "evidence:7"
+      },
+      {
+        "source": "evidence:7",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0008"
+      },
+      {
+        "source": "repo:service-0008",
+        "target": "evidence:8"
+      },
+      {
+        "source": "evidence:8",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0009"
+      },
+      {
+        "source": "repo:service-0009",
+        "target": "evidence:9"
+      },
+      {
+        "source": "evidence:9",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0010"
+      },
+      {
+        "source": "repo:service-0010",
+        "target": "evidence:10"
+      },
+      {
+        "source": "evidence:10",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0011"
+      },
+      {
+        "source": "repo:service-0011",
+        "target": "evidence:11"
+      },
+      {
+        "source": "evidence:11",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0012"
+      },
+      {
+        "source": "repo:service-0012",
+        "target": "evidence:12"
+      },
+      {
+        "source": "evidence:12",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0013"
+      },
+      {
+        "source": "repo:service-0013",
+        "target": "evidence:13"
+      },
+      {
+        "source": "evidence:13",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0014"
+      },
+      {
+        "source": "repo:service-0014",
+        "target": "evidence:14"
+      },
+      {
+        "source": "evidence:14",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0015"
+      },
+      {
+        "source": "repo:service-0015",
+        "target": "evidence:15"
+      },
+      {
+        "source": "evidence:15",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0016"
+      },
+      {
+        "source": "repo:service-0016",
+        "target": "evidence:16"
+      },
+      {
+        "source": "evidence:16",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0017"
+      },
+      {
+        "source": "repo:service-0017",
+        "target": "evidence:17"
+      },
+      {
+        "source": "evidence:17",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0018"
+      },
+      {
+        "source": "repo:service-0018",
+        "target": "evidence:18"
+      },
+      {
+        "source": "evidence:18",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0019"
+      },
+      {
+        "source": "repo:service-0019",
+        "target": "evidence:19"
+      },
+      {
+        "source": "evidence:19",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0020"
+      },
+      {
+        "source": "repo:service-0020",
+        "target": "evidence:20"
+      },
+      {
+        "source": "evidence:20",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0021"
+      },
+      {
+        "source": "repo:service-0021",
+        "target": "evidence:21"
+      },
+      {
+        "source": "evidence:21",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0022"
+      },
+      {
+        "source": "repo:service-0022",
+        "target": "evidence:22"
+      },
+      {
+        "source": "evidence:22",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0023"
+      },
+      {
+        "source": "repo:service-0023",
+        "target": "evidence:23"
+      },
+      {
+        "source": "evidence:23",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0024"
+      },
+      {
+        "source": "repo:service-0024",
+        "target": "evidence:24"
+      },
+      {
+        "source": "evidence:24",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0025"
+      },
+      {
+        "source": "repo:service-0025",
+        "target": "evidence:25"
+      },
+      {
+        "source": "evidence:25",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0026"
+      },
+      {
+        "source": "repo:service-0026",
+        "target": "evidence:26"
+      },
+      {
+        "source": "evidence:26",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0027"
+      },
+      {
+        "source": "repo:service-0027",
+        "target": "evidence:27"
+      },
+      {
+        "source": "evidence:27",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0028"
+      },
+      {
+        "source": "repo:service-0028",
+        "target": "evidence:28"
+      },
+      {
+        "source": "evidence:28",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0029"
+      },
+      {
+        "source": "repo:service-0029",
+        "target": "evidence:29"
+      },
+      {
+        "source": "evidence:29",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0030"
+      },
+      {
+        "source": "repo:service-0030",
+        "target": "evidence:30"
+      },
+      {
+        "source": "evidence:30",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0031"
+      },
+      {
+        "source": "repo:service-0031",
+        "target": "evidence:31"
+      },
+      {
+        "source": "evidence:31",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0032"
+      },
+      {
+        "source": "repo:service-0032",
+        "target": "evidence:32"
+      },
+      {
+        "source": "evidence:32",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0033"
+      },
+      {
+        "source": "repo:service-0033",
+        "target": "evidence:33"
+      },
+      {
+        "source": "evidence:33",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0034"
+      },
+      {
+        "source": "repo:service-0034",
+        "target": "evidence:34"
+      },
+      {
+        "source": "evidence:34",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0035"
+      },
+      {
+        "source": "repo:service-0035",
+        "target": "evidence:35"
+      },
+      {
+        "source": "evidence:35",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0036"
+      },
+      {
+        "source": "repo:service-0036",
+        "target": "evidence:36"
+      },
+      {
+        "source": "evidence:36",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0037"
+      },
+      {
+        "source": "repo:service-0037",
+        "target": "evidence:37"
+      },
+      {
+        "source": "evidence:37",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0038"
+      },
+      {
+        "source": "repo:service-0038",
+        "target": "evidence:38"
+      },
+      {
+        "source": "evidence:38",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0039"
+      },
+      {
+        "source": "repo:service-0039",
+        "target": "evidence:39"
+      },
+      {
+        "source": "evidence:39",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0040"
+      },
+      {
+        "source": "repo:service-0040",
+        "target": "evidence:40"
+      },
+      {
+        "source": "evidence:40",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0041"
+      },
+      {
+        "source": "repo:service-0041",
+        "target": "evidence:41"
+      },
+      {
+        "source": "evidence:41",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0042"
+      },
+      {
+        "source": "repo:service-0042",
+        "target": "evidence:42"
+      },
+      {
+        "source": "evidence:42",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0043"
+      },
+      {
+        "source": "repo:service-0043",
+        "target": "evidence:43"
+      },
+      {
+        "source": "evidence:43",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0044"
+      },
+      {
+        "source": "repo:service-0044",
+        "target": "evidence:44"
+      },
+      {
+        "source": "evidence:44",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0045"
+      },
+      {
+        "source": "repo:service-0045",
+        "target": "evidence:45"
+      },
+      {
+        "source": "evidence:45",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0046"
+      },
+      {
+        "source": "repo:service-0046",
+        "target": "evidence:46"
+      },
+      {
+        "source": "evidence:46",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0047"
+      },
+      {
+        "source": "repo:service-0047",
+        "target": "evidence:47"
+      },
+      {
+        "source": "evidence:47",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0048"
+      },
+      {
+        "source": "repo:service-0048",
+        "target": "evidence:48"
+      },
+      {
+        "source": "evidence:48",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0049"
+      },
+      {
+        "source": "repo:service-0049",
+        "target": "evidence:49"
+      },
+      {
+        "source": "evidence:49",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0050"
+      },
+      {
+        "source": "repo:service-0050",
+        "target": "evidence:50"
+      },
+      {
+        "source": "evidence:50",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0051"
+      },
+      {
+        "source": "repo:service-0051",
+        "target": "evidence:51"
+      },
+      {
+        "source": "evidence:51",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0052"
+      },
+      {
+        "source": "repo:service-0052",
+        "target": "evidence:52"
+      },
+      {
+        "source": "evidence:52",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0053"
+      },
+      {
+        "source": "repo:service-0053",
+        "target": "evidence:53"
+      },
+      {
+        "source": "evidence:53",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0054"
+      },
+      {
+        "source": "repo:service-0054",
+        "target": "evidence:54"
+      },
+      {
+        "source": "evidence:54",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0055"
+      },
+      {
+        "source": "repo:service-0055",
+        "target": "evidence:55"
+      },
+      {
+        "source": "evidence:55",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0056"
+      },
+      {
+        "source": "repo:service-0056",
+        "target": "evidence:56"
+      },
+      {
+        "source": "evidence:56",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0057"
+      },
+      {
+        "source": "repo:service-0057",
+        "target": "evidence:57"
+      },
+      {
+        "source": "evidence:57",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0058"
+      },
+      {
+        "source": "repo:service-0058",
+        "target": "evidence:58"
+      },
+      {
+        "source": "evidence:58",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0059"
+      },
+      {
+        "source": "repo:service-0059",
+        "target": "evidence:59"
+      },
+      {
+        "source": "evidence:59",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0060"
+      },
+      {
+        "source": "repo:service-0060",
+        "target": "evidence:60"
+      },
+      {
+        "source": "evidence:60",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0061"
+      },
+      {
+        "source": "repo:service-0061",
+        "target": "evidence:61"
+      },
+      {
+        "source": "evidence:61",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0062"
+      },
+      {
+        "source": "repo:service-0062",
+        "target": "evidence:62"
+      },
+      {
+        "source": "evidence:62",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0063"
+      },
+      {
+        "source": "repo:service-0063",
+        "target": "evidence:63"
+      },
+      {
+        "source": "evidence:63",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0064"
+      },
+      {
+        "source": "repo:service-0064",
+        "target": "evidence:64"
+      },
+      {
+        "source": "evidence:64",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0065"
+      },
+      {
+        "source": "repo:service-0065",
+        "target": "evidence:65"
+      },
+      {
+        "source": "evidence:65",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0066"
+      },
+      {
+        "source": "repo:service-0066",
+        "target": "evidence:66"
+      },
+      {
+        "source": "evidence:66",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0067"
+      },
+      {
+        "source": "repo:service-0067",
+        "target": "evidence:67"
+      },
+      {
+        "source": "evidence:67",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0068"
+      },
+      {
+        "source": "repo:service-0068",
+        "target": "evidence:68"
+      },
+      {
+        "source": "evidence:68",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0069"
+      },
+      {
+        "source": "repo:service-0069",
+        "target": "evidence:69"
+      },
+      {
+        "source": "evidence:69",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0070"
+      },
+      {
+        "source": "repo:service-0070",
+        "target": "evidence:70"
+      },
+      {
+        "source": "evidence:70",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0071"
+      },
+      {
+        "source": "repo:service-0071",
+        "target": "evidence:71"
+      },
+      {
+        "source": "evidence:71",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0072"
+      },
+      {
+        "source": "repo:service-0072",
+        "target": "evidence:72"
+      },
+      {
+        "source": "evidence:72",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0073"
+      },
+      {
+        "source": "repo:service-0073",
+        "target": "evidence:73"
+      },
+      {
+        "source": "evidence:73",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0074"
+      },
+      {
+        "source": "repo:service-0074",
+        "target": "evidence:74"
+      },
+      {
+        "source": "evidence:74",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0075"
+      },
+      {
+        "source": "repo:service-0075",
+        "target": "evidence:75"
+      },
+      {
+        "source": "evidence:75",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Data",
+        "target": "repo:service-0076"
+      },
+      {
+        "source": "repo:service-0076",
+        "target": "evidence:76"
+      },
+      {
+        "source": "evidence:76",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Platform",
+        "target": "repo:service-0077"
+      },
+      {
+        "source": "repo:service-0077",
+        "target": "evidence:77"
+      },
+      {
+        "source": "evidence:77",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:Applications",
+        "target": "repo:service-0078"
+      },
+      {
+        "source": "repo:service-0078",
+        "target": "evidence:78"
+      },
+      {
+        "source": "evidence:78",
+        "target": "package:demo-lib"
+      },
+      {
+        "source": "team:UNKNOWN",
+        "target": "repo:service-0079"
+      },
+      {
+        "source": "repo:service-0079",
+        "target": "evidence:79"
+      },
+      {
+        "source": "evidence:79",
+        "target": "package:demo-lib"
+      }
+    ]
+  }
+}

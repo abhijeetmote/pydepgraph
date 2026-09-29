@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "repositories": 80,
+  "evidence_rows": 80,
+  "fixture_classifications_matched": 80,
+  "fixture_classifications_total": 80,
+  "advisory_status_counts": {
+    "not_affected": 39,
+    "affected": 31,
+    "indeterminate": 10
+  },
+  "diagnostics": 10,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "timing_scope": "Warm filesystem scan plus matching plus graph, excludes generation, imports, plotting, network and serialization",
+  "timing_median_seconds": {
+    "10": 0.0022529450000092766,
+    "100": 0.021388021999882767,
+    "1000": 0.21629737300008856
+  }
+}

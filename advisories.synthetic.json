@@ -1,0 +1,9 @@
+[
+  {
+    "id": "SYNTH-001",
+    "package": "demo-lib",
+    "affected": "<2",
+    "synthetic": true,
+    "description": "Fictional test advisory; not a public vulnerability record."
+  }
+]

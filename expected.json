@@ -1,0 +1,322 @@
+[
+  {
+    "repository": "service-0000",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0001",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0002",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0003",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0004",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0005",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0006",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0007",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0008",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0009",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0010",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0011",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0012",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0013",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0014",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0015",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0016",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0017",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0018",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0019",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0020",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0021",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0022",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0023",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0024",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0025",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0026",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0027",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0028",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0029",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0030",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0031",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0032",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0033",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0034",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0035",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0036",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0037",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0038",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0039",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0040",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0041",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0042",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0043",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0044",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0045",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0046",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0047",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0048",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0049",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0050",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0051",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0052",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0053",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0054",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0055",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0056",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0057",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0058",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0059",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0060",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0061",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0062",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0063",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0064",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0065",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0066",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0067",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0068",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0069",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0070",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0071",
+    "status": "indeterminate"
+  },
+  {
+    "repository": "service-0072",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0073",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0074",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0075",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0076",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0077",
+    "status": "not_affected"
+  },
+  {
+    "repository": "service-0078",
+    "status": "affected"
+  },
+  {
+    "repository": "service-0079",
+    "status": "indeterminate"
+  }
+]
