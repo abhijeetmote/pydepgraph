@@ -1,0 +1,4 @@
+[project]
+name="synthetic-service"
+version="0.1"
+dependencies=["demo-lib==2.0"]

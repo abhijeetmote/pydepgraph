@@ -1,0 +1,8 @@
+{
+  "synthetic": true,
+  "team": "UNKNOWN",
+  "environment": {
+    "sys_platform": "linux",
+    "python_version": "3.11"
+  }
+}
