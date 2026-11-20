@@ -1,9 +1,13 @@
-# PyDepGraph 0.1 — reproducible research prototype
+# PyDepGraph — dependency evidence and environment analysis
 
-An automated Python dependency evidence catalog and synthetic advisory-matching demo.
-Independent implementation using generated inputs only. No workplace code or data.
+An offline Python dependency evidence catalog with explicit target profiles and
+comparison against supplied installed-package inventories. The current code includes
+the **0.2.0a1 research preview** and retains the original v0.1 scanner CLI.
+Shipped benchmark inputs and advisories are synthetic. No workplace code or data
+is included. Merged code does not imply a published release or a completed
+real-repository vulnerability evaluation.
 
-## Run
+## Install and run the original catalog
 
 Requires Python 3.11 or newer. From this directory:
 
@@ -20,7 +24,7 @@ in a fresh source copy with no `synthetic_repositories` or `results` directory; 
 to overwrite an existing run. To rerun benchmarks, copy the source files into a new directory.
 All synthetic dependencies are parsed as text; do not install the generated repositories.
 
-## What works
+## Original catalog capabilities
 
 - Recursive per-repository collection from requirements, standard pyproject declarations,
   Poetry lock inventory, Pipfile/Pipfile.lock, setup.cfg and tox.ini.
@@ -34,7 +38,7 @@ All synthetic dependencies are parsed as text; do not install the generated repo
 Each immediate directory under the scan root is a repository. Optional `pydepgraph.json`
 provides `team` and an `environment` mapping. Missing owners remain UNKNOWN.
 
-## Meaning of results
+## Original catalog result semantics
 
 `affected` means an exact version in a source record matches a supplied advisory range
 and its recorded marker is applicable. It does NOT prove installation, deployment,
@@ -49,8 +53,11 @@ No advisory freshness, alias deduplication, or real CVE coverage claims are made
 
 ## Deliberate limits
 
-This milestone does not resolve transitive paths, install environments, reconcile lock
-freshness, prove conflicts, calculate exploitability, or suggest validated upgrades.
+The tools do not resolve transitive paths, install environments, reconcile lockfile
+freshness, establish resolver-level conflicts, calculate exploitability, or suggest
+validated upgrades. The environment command can report an observed installed version
+that violates an individual source declaration; this does not prove an installation
+is unsatisfiable.
 Poetry parsing inventories package records only: group/extra/per-edge applicability is
 not resolved. Legacy tool.poetry declarations, uv.lock, arbitrary INI files, dynamic
 dependencies, VCS requirements, tox substitutions/factors and group includes are not
@@ -64,9 +71,11 @@ ranges are not resolved to invented versions. No code in scanned repositories is
 
 ## Reproducibility and paper readiness
 
-See RESEARCH_NOTES.md and results/summary.json. Current small fixtures are smoke-test
-evidence only, not independent validation or evidence of superiority to existing tools.
-The benchmark uses one dependency per repository and warm local filesystem reads.
+The original catalog experiment is documented in [RESEARCH_NOTES.md](RESEARCH_NOTES.md)
+and [results/summary.json](results/summary.json); it uses one dependency per repository
+and warm local filesystem reads. The newer environment experiments are separate and
+are described below. Both use controlled fixtures, not independent evidence of
+superiority to existing scanners.
 
 ## Open-source release
 
@@ -74,7 +83,10 @@ The repository includes an Apache-2.0 license. The environment-analysis extensio
 
 ## Environment analysis research preview — 0.2.0a1
 
-The new command retains separate declaration evidence and installed observations:
+The environment command evaluates declarations under named profiles and retains
+separate declaration findings, installed observations, and comparison records.
+Create `profiles.json` using the example below, then replace `REPOSITORY_ROOT`
+with a directory whose immediate subdirectories are repositories:
 
 ```sh
 python environment_analysis.py REPOSITORY_ROOT --profiles profiles.json --advisories advisories.synthetic.json --out analysis.json
@@ -92,7 +104,42 @@ An omitted extras/groups key means selection is unknown; an empty list means non
 
 Optionally pass `--snapshots snapshots.json`, a mapping from profile IDs to repository names to `pip inspect` JSON paths (relative to the mapping file). The report must match every provided target environment field. Snapshot inventories are supplied observations; their authenticity, completeness and selected extras are not independently verified. Source declarations and observations are never silently fused.
 
-The benchmark uses 16 generated profiles and 96 applicability decisions. These deliberately selected cases are functional validation, not a representative accuracy estimate. See research/PROTOCOL.md for the still-pending real-repository study.
+To collect a report, run the following **inside the target environment you intend
+to compare**, using a pip version that supports `inspect`:
+
+```sh
+python -m pip inspect > inspect.json
+```
+
+For a repository directory named `app`, create `snapshots.json` alongside that report:
+
+```json
+{"linux312-web":{"app":"inspect.json"}}
+```
+
+Then analyze the supplied inventory:
+
+```sh
+python environment_analysis.py REPOSITORY_ROOT --profiles profiles.json --snapshots snapshots.json --advisories advisories.synthetic.json --out analysis.json
+```
+
+The profile's environment values must describe the collected environment. The sample
+Linux profile will be rejected against a macOS or Windows report. Selecting extras
+in a profile does not install them or prove that they were requested during installation.
+Omit `--advisories` to obtain declaration/inventory comparisons without advisory findings.
+
+Each entry in `results` contains:
+
+| Field | Meaning |
+| --- | --- |
+| `profile` | Supplied target environment and selection context |
+| `evidence` | Source records with true, false, or unknown applicability and a reason |
+| `findings` | Source advisory matches: affected, not_affected, not_applicable, or indeterminate |
+| `observations` | Advisory matches against the supplied installed inventory, including absent packages |
+| `comparisons` | Per-declaration inventory relations and inventory-only packages |
+
+Top-level `diagnostics` retain extraction warnings; `limitations` describe interpretation
+boundaries. Empty findings do not establish that an installation is secure.
 
 ### Declaration and inventory reconciliation
 
@@ -114,3 +161,23 @@ python research/reconciliation_benchmark.py research/results
 ```
 
 This fixture uses a hand-authored snapshot and no real advisories or installations.
+
+
+### Recorded validation
+
+| Check | Recorded result | Interpretation |
+| --- | --- | --- |
+| Unit tests | 31 passed: 12 original and 19 extension tests | Regression checks for supported behavior |
+| Applicability fixture | 96/96 expected labels across 16 profiles | Controlled platform, interpreter, extra, and group cases |
+| v0.1 active-field comparison | 80/96 labels agree | The 16 differences are deliberately selected extra/group cases |
+| Reconciliation fixture | 8/8 expected relations | Hand-authored inventory; independent of advisory input |
+
+Recorded with Python 3.12.14 and packaging 26.3. These counts do not estimate
+real-world vulnerability precision, recall, or false-positive reduction. The original
+scanner retains scope labels; the active-field comparison measures added selection
+semantics, not a complete comparison of deployment scanners.
+
+See [applicability results](research/results/summary.json),
+[reconciliation results](research/results/reconciliation.json), and the
+[real-repository evaluation protocol](research/PROTOCOL.md). A real-repository study,
+raw advisory-feed integration, and independent scanner comparisons remain pending.
