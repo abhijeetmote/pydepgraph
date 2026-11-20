@@ -1,0 +1,47 @@
+{
+  "design": "hand-authored snapshot fixture, not an actual installation",
+  "decisions": 8,
+  "correct": 8,
+  "records": [
+    {
+      "package": "compatible",
+      "expected": "satisfies_declaration",
+      "actual": "satisfies_declaration"
+    },
+    {
+      "package": "conflict",
+      "expected": "violates_declaration",
+      "actual": "violates_declaration"
+    },
+    {
+      "package": "missing",
+      "expected": "active_absent",
+      "actual": "active_absent"
+    },
+    {
+      "package": "offpresent",
+      "expected": "inactive_present",
+      "actual": "inactive_present"
+    },
+    {
+      "package": "offabsent",
+      "expected": "inactive_absent",
+      "actual": "inactive_absent"
+    },
+    {
+      "package": "unknown",
+      "expected": "unresolved_applicability",
+      "actual": "unresolved_applicability"
+    },
+    {
+      "package": "free",
+      "expected": "present_version_unconstrained",
+      "actual": "present_version_unconstrained"
+    },
+    {
+      "package": "tool",
+      "expected": "inventory_only",
+      "actual": "inventory_only"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "extension_correct": 96,
   "baseline_correct": 80,
   "baseline_false_active": 16,
-  "elapsed_seconds": 0.003166917013004422,
+  "elapsed_seconds": 0.0033929579658433795,
   "python": "3.12.14",
   "packaging": "26.3",
   "baseline_commit": "f45e96e",

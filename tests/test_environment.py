@@ -73,4 +73,52 @@ class EnvironmentTests(unittest.TestCase):
             r=analyze(tmp,[profile()],[dict(id='x',package='demo',affected='<2')])
             self.assertEqual(r['results'][0]['findings'][0]['status'],'indeterminate')
 
+    def test_invalid_profile_shapes(self):
+        for invalid in (None, [], dict(id='x',environment={'python_verison':'3.12'}),
+                        profile(extras=[''])):
+            with self.subTest(invalid=invalid), self.assertRaises(ValueError):
+                validate_profile(invalid)
+
+    def test_unknown_snapshot_profile_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp, self.assertRaises(ValueError):
+            analyze(tmp, [profile()], snapshots={'typo': {}})
+
+    def test_unknown_snapshot_repository_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp, self.assertRaises(ValueError):
+            analyze(tmp, [profile()], snapshots={'linux': {'missing': 'unused.json'}})
+
+    def test_reconciliation_is_advisory_independent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)/'repos'; repo=root/'app'; repo.mkdir(parents=True)
+            (repo/'requirements.txt').write_text('good>=1,<3\nbad==1\nmissing==1\ninactive==1; sys_platform == "win32"\nunknown==1; platform_machine == "arm64"\n')
+            p=profile(); snap=Path(tmp)/'inspect.json'
+            snap.write_text(json.dumps(dict(version='1',environment=p['environment'],installed=[
+                dict(metadata={'name':name,'version':'2'}) for name in ['good','bad','inactive','tool']
+            ])))
+            result=analyze(root,[p],snapshots={'linux':{'app':str(snap)}})['results'][0]
+            self.assertEqual({r['package']:r['relation'] for r in result['comparisons']}, {
+                'good':'satisfies_declaration','bad':'violates_declaration','missing':'active_absent',
+                'inactive':'inactive_present','unknown':'unresolved_applicability','tool':'inventory_only'})
+            self.assertEqual(result['findings'],[])
+
+    def test_snapshot_without_supported_declarations(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)/'repos'; (root/'app').mkdir(parents=True)
+            p=profile(); snap=Path(tmp)/'inspect.json'
+            snap.write_text(json.dumps(dict(version='1',environment=p['environment'],installed=[
+                dict(metadata={'name':'tool','version':'1'})])))
+            result=analyze(root,[p],snapshots={'linux':{'app':str(snap)}})['results'][0]
+            self.assertEqual(result['comparisons'][0]['relation'],'inventory_only')
+
+    def test_conflicting_declarations_are_preserved(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)/'repos'; repo=root/'app'; repo.mkdir(parents=True)
+            (repo/'requirements.txt').write_text('demo==1\ndemo==2\n')
+            p=profile(); snap=Path(tmp)/'inspect.json'
+            snap.write_text(json.dumps(dict(version='1',environment=p['environment'],installed=[
+                dict(metadata={'name':'demo','version':'2'})])))
+            result=analyze(root,[p],snapshots={'linux':{'app':str(snap)}})['results'][0]
+            self.assertEqual({r['relation'] for r in result['comparisons']},
+                             {'satisfies_declaration','violates_declaration'})
+
 if __name__=='__main__':unittest.main()

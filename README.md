@@ -93,3 +93,24 @@ An omitted extras/groups key means selection is unknown; an empty list means non
 Optionally pass `--snapshots snapshots.json`, a mapping from profile IDs to repository names to `pip inspect` JSON paths (relative to the mapping file). The report must match every provided target environment field. Snapshot inventories are supplied observations; their authenticity, completeness and selected extras are not independently verified. Source declarations and observations are never silently fused.
 
 The benchmark uses 16 generated profiles and 96 applicability decisions. These deliberately selected cases are functional validation, not a representative accuracy estimate. See research/PROTOCOL.md for the still-pending real-repository study.
+
+### Declaration and inventory reconciliation
+
+Each profile result now includes `comparisons`, independent of advisory input.
+A record can be `satisfies_declaration`, `violates_declaration`, `active_absent`,
+`inactive_present`, `inactive_absent`, `unresolved_applicability`,
+`present_version_unconstrained`, or `inventory_only`. These are per-declaration
+relations; inactive presence may be explained by another active declaration.
+Constraint membership includes observed prereleases and does not reproduce
+installer candidate selection. Direct-reference artifact identity is not checked.
+Contradictory declarations are retained separately. Snapshot associations must
+reference known profiles and existing non-symlink repository directories, including
+repositories for which no supported declaration was extracted.
+
+Run the additional controlled fixture with:
+
+```sh
+python research/reconciliation_benchmark.py research/results
+```
+
+This fixture uses a hand-authored snapshot and no real advisories or installations.

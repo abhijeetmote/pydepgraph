@@ -7,7 +7,7 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
-from packaging.markers import Marker, Variable
+from packaging.markers import Marker, Variable, default_environment
 from packaging.specifiers import SpecifierSet
 from packaging.utils import canonicalize_name
 from packaging.version import Version
@@ -30,6 +30,8 @@ def marker_variables(node):
 
 
 def validate_profile(profile):
+    if not isinstance(profile, dict):
+        raise ValueError('profile must be an object')
     if not isinstance(profile.get('id'), str) or not profile['id']:
         raise ValueError('profile requires a non-empty id')
     env = profile.get('environment')
@@ -37,9 +39,11 @@ def validate_profile(profile):
         raise ValueError('environment must map names to strings')
     if any(k in env for k in ('extra', 'extras', 'dependency_groups')):
         raise ValueError('select extras and groups through profile fields, not environment')
+    if set(env) - default_environment().keys():
+        raise ValueError('unknown environment field')
     for name in ('extras', 'groups'):
         if name in profile and (not isinstance(profile[name], list) or
-                any(not isinstance(x, str) for x in profile[name])):
+                any(not isinstance(x, str) or not x.strip() for x in profile[name])):
             raise ValueError(name + ' must be a list of names; omit for unknown selection')
     if 'python_version' in env and 'python_full_version' in env:
         full = Version(env['python_full_version'])
@@ -99,12 +103,51 @@ def inspect_snapshot(path, profile):
     return inventory, hashlib.sha256(raw).hexdigest()
 
 
+def reconcile(evidence, inventory, repo, profile_id, digest):
+    """Compare each declaration independently; never merge contradictory evidence.
+
+    A range match means constraint compatibility, not dependency resolution.
+    Inventory-only packages may be transitive or tooling; they are not errors.
+    """
+    records = []
+    declarations = [r for r in evidence if r['repository'] == repo and r['scope'] != 'constraint']
+    for row in declarations:
+        version = inventory.get(row['package'])
+        if row['active'] is None:
+            status = 'unresolved_applicability'
+        elif row['active'] is False:
+            status = 'inactive_present' if version is not None else 'inactive_absent'
+        elif version is None:
+            status = 'active_absent'
+        elif not row['constraint']:
+            status = 'present_version_unconstrained'
+        else:
+            compatible = SpecifierSet(row['constraint']).contains(Version(version), prereleases=True)
+            status = 'satisfies_declaration' if compatible else 'violates_declaration'
+        records.append(dict(repository=repo, profile_id=profile_id, package=row['package'],
+            source=row['source'], source_sha256=row['source_sha256'], scope=row['scope'],
+            constraint=row['constraint'], active=row['active'], installed_version=version,
+            relation=status, snapshot_sha256=digest))
+    declared_names = {r['package'] for r in declarations}
+    for name in sorted(inventory.keys() - declared_names):
+        records.append(dict(repository=repo, profile_id=profile_id, package=name,
+            installed_version=inventory[name], relation='inventory_only', snapshot_sha256=digest))
+    return records
+
+
 def analyze(root, profiles, advisories=(), snapshots=None):
     ids = []
     for profile in profiles:
         validate_profile(profile); ids.append(profile['id'])
     if len(ids) != len(set(ids)):
         raise ValueError('duplicate profile id')
+    snapshots = {} if snapshots is None else snapshots
+    if not isinstance(snapshots, dict) or set(snapshots) - set(ids):
+        raise ValueError('snapshot mappings must reference known profile IDs')
+    repos = {p.name for p in Path(root).iterdir() if p.is_dir() and not p.is_symlink()}
+    for mapping in snapshots.values():
+        if not isinstance(mapping, dict) or set(mapping) - repos:
+            raise ValueError('snapshot mapping must reference repository directories')
     catalog = scan(root)
     results = []
     for profile in profiles:
@@ -127,10 +170,10 @@ def analyze(root, profiles, advisories=(), snapshots=None):
                 findings.append({**row, 'advisory': advisory['id'], 'status': status,
                                  'basis': 'source_evidence', 'synthetic_advisory': advisory.get('synthetic', False)})
         observations = []
+        comparisons = []
         for repo, path in (snapshots or {}).get(profile['id'], {}).items():
-            if repo not in {r['repository'] for r in evidence}:
-                raise ValueError('snapshot repository has no catalog evidence: ' + repo)
             inventory, digest = inspect_snapshot(path, profile)
+            comparisons.extend(reconcile(evidence, inventory, repo, profile['id'], digest))
             for advisory in advisories:
                 name = canonicalize_name(advisory['package']); version = inventory.get(name)
                 status = 'absent' if version is None else ('affected' if Version(version) in SpecifierSet(advisory['affected']) else 'not_affected')
@@ -140,7 +183,8 @@ def analyze(root, profiles, advisories=(), snapshots=None):
                     synthetic_advisory=advisory.get('synthetic', False), snapshot_sha256=digest,
                     declaration_versions=sorted({r['version'] for r in declarations if r['version']}),
                     declared_applicability=[r['active'] for r in declarations]))
-        results.append(dict(profile=profile, evidence=evidence, findings=findings, observations=observations))
+        results.append(dict(profile=profile, evidence=evidence, findings=findings, observations=observations,
+                            comparisons=comparisons))
     return dict(schema_version='0.2', tool_version=VERSION, results=results,
                 diagnostics=catalog['diagnostics'], limitations=[
                     'Source evidence does not prove installation or exploitability.',

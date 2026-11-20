@@ -10,3 +10,10 @@
 - Retain the original v0.1 CLI and behavior.
 
 This preview extends Git baseline f45e96e. No real-repository comparative evaluation or real advisory adapter is included.
+
+### Research preview review updates
+- Add advisory-independent, per-declaration installed inventory comparisons.
+- Preserve contradictory source constraints in separate comparison records.
+- Reject unknown snapshot profiles/repositories and invalid profile fields.
+- Retain snapshot-only evidence for repositories without supported declarations.
+- Add six regression tests (31 total) and eight hand-labeled reconciliation cases.
