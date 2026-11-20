@@ -1,0 +1,674 @@
+[
+  {
+    "profile": "linux-3.10-web0-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web0-test0",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web0-test0",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web0-test0",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web0-test0",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web0-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web0-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web0-test1",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web0-test1",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web0-test1",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web0-test1",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web0-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test0",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web1-test0",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test0",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web1-test0",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test1",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web1-test1",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test1",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.10-web1-test1",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.10-web1-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test0",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web0-test0",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web0-test0",
+    "package": "mixed",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test0",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test1",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web0-test1",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web0-test1",
+    "package": "mixed",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test1",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web0-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test0",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web1-test0",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web1-test0",
+    "package": "mixed",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test0",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test1",
+    "package": "windows",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web1-test1",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "linux-3.12-web1-test1",
+    "package": "mixed",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test1",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "linux-3.12-web1-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test0",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test0",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test0",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.10-web0-test0",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test1",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test1",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test1",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.10-web0-test1",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web0-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test0",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test0",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test0",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.10-web1-test0",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test1",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test1",
+    "package": "oldpy",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test1",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.10-web1-test1",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.10-web1-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test0",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test0",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web0-test0",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web0-test0",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test1",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test1",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web0-test1",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web0-test1",
+    "package": "webdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web0-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test0",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test0",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test0",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web1-test0",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web1-test0",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test0",
+    "package": "testdep",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test1",
+    "package": "always",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test1",
+    "package": "windows",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test1",
+    "package": "oldpy",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web1-test1",
+    "package": "mixed",
+    "expected_active": false,
+    "extension_active": false,
+    "baseline_active": false
+  },
+  {
+    "profile": "win32-3.12-web1-test1",
+    "package": "webdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  },
+  {
+    "profile": "win32-3.12-web1-test1",
+    "package": "testdep",
+    "expected_active": true,
+    "extension_active": true,
+    "baseline_active": true
+  }
+]

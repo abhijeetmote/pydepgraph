@@ -1,0 +1,178 @@
+[
+  {
+    "id": "linux-3.10-web0-test0",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.10"
+    },
+    "extras": [],
+    "groups": []
+  },
+  {
+    "id": "linux-3.10-web0-test1",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.10"
+    },
+    "extras": [],
+    "groups": [
+      "test"
+    ]
+  },
+  {
+    "id": "linux-3.10-web1-test0",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.10"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": []
+  },
+  {
+    "id": "linux-3.10-web1-test1",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.10"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": [
+      "test"
+    ]
+  },
+  {
+    "id": "linux-3.12-web0-test0",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.12"
+    },
+    "extras": [],
+    "groups": []
+  },
+  {
+    "id": "linux-3.12-web0-test1",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.12"
+    },
+    "extras": [],
+    "groups": [
+      "test"
+    ]
+  },
+  {
+    "id": "linux-3.12-web1-test0",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.12"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": []
+  },
+  {
+    "id": "linux-3.12-web1-test1",
+    "environment": {
+      "sys_platform": "linux",
+      "python_version": "3.12"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": [
+      "test"
+    ]
+  },
+  {
+    "id": "win32-3.10-web0-test0",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.10"
+    },
+    "extras": [],
+    "groups": []
+  },
+  {
+    "id": "win32-3.10-web0-test1",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.10"
+    },
+    "extras": [],
+    "groups": [
+      "test"
+    ]
+  },
+  {
+    "id": "win32-3.10-web1-test0",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.10"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": []
+  },
+  {
+    "id": "win32-3.10-web1-test1",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.10"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": [
+      "test"
+    ]
+  },
+  {
+    "id": "win32-3.12-web0-test0",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.12"
+    },
+    "extras": [],
+    "groups": []
+  },
+  {
+    "id": "win32-3.12-web0-test1",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.12"
+    },
+    "extras": [],
+    "groups": [
+      "test"
+    ]
+  },
+  {
+    "id": "win32-3.12-web1-test0",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.12"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": []
+  },
+  {
+    "id": "win32-3.12-web1-test1",
+    "environment": {
+      "sys_platform": "win32",
+      "python_version": "3.12"
+    },
+    "extras": [
+      "web"
+    ],
+    "groups": [
+      "test"
+    ]
+  }
+]
