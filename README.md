@@ -70,5 +70,47 @@ The benchmark uses one dependency per repository and warm local filesystem reads
 
 ## Open-source release
 
-Prepared for a future repository; not uploaded to GitHub or PyPI. Choose and add an
-open-source LICENSE and contribution policy before public release. No license is assumed.
+The repository includes an Apache-2.0 license. The environment-analysis extension is an unreleased research preview.
+
+## Environment analysis research preview — 0.2.0a1
+
+The new command retains separate declaration evidence and installed observations:
+
+```sh
+python environment_analysis.py REPOSITORY_ROOT --profiles profiles.json --advisories advisories.synthetic.json --out analysis.json
+python -m unittest discover -s tests -v
+python research/benchmark.py research/results
+```
+
+A profiles file is a JSON list such as:
+
+```json
+[{"id":"linux312-web","environment":{"sys_platform":"linux","python_version":"3.12"},"extras":["web"],"groups":[]}]
+```
+
+An omitted extras/groups key means selection is unknown; an empty list means none selected. Unknown platform or marker variables are not filled from the analysis host. Lock-only and development scopes remain unresolved. The implementation is an applicability analyzer, not a resolver.
+
+Optionally pass `--snapshots snapshots.json`, a mapping from profile IDs to repository names to `pip inspect` JSON paths (relative to the mapping file). The report must match every provided target environment field. Snapshot inventories are supplied observations; their authenticity, completeness and selected extras are not independently verified. Source declarations and observations are never silently fused.
+
+The benchmark uses 16 generated profiles and 96 applicability decisions. These deliberately selected cases are functional validation, not a representative accuracy estimate. See research/PROTOCOL.md for the still-pending real-repository study.
+
+### Declaration and inventory reconciliation
+
+Each profile result now includes `comparisons`, independent of advisory input.
+A record can be `satisfies_declaration`, `violates_declaration`, `active_absent`,
+`inactive_present`, `inactive_absent`, `unresolved_applicability`,
+`present_version_unconstrained`, or `inventory_only`. These are per-declaration
+relations; inactive presence may be explained by another active declaration.
+Constraint membership includes observed prereleases and does not reproduce
+installer candidate selection. Direct-reference artifact identity is not checked.
+Contradictory declarations are retained separately. Snapshot associations must
+reference known profiles and existing non-symlink repository directories, including
+repositories for which no supported declaration was extracted.
+
+Run the additional controlled fixture with:
+
+```sh
+python research/reconciliation_benchmark.py research/results
+```
+
+This fixture uses a hand-authored snapshot and no real advisories or installations.

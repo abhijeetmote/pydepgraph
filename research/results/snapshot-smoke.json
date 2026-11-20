@@ -1,0 +1,8 @@
+{
+  "test": "pip inspect integration smoke check",
+  "package": "packaging",
+  "version": "26.3",
+  "observation_matches": true,
+  "synthetic_advisory": true,
+  "limitation": "One existing host environment; not independent installation or vulnerability validation."
+}
